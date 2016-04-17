@@ -1,4 +1,8 @@
 
+// grabbed from http://www.instructables.com/id/CatGenie-Resetting-a-SaniSolution-Cartridge/?ALLSTEPS
+// but reformatted to actually be, you know, readable
+// caveat: untested as of 2016-04-16
+
 #include <Wire.h>
 
 #define CG (B1010000)boolean resetSuccess = false;

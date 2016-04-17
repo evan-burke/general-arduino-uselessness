@@ -3,6 +3,13 @@
 // but reformatted to actually be, you know, readable
 // caveat: untested as of 2016-04-16
 
+// you'll need to connect your Arduino's i2c pins to the cat genie.
+// 3v - red
+// GND - black 
+// SDA / i2c data = white
+// SCL / i2c clock = blue
+
+
 #include <Wire.h>
 
 #define CG (B1010000)boolean resetSuccess = false;

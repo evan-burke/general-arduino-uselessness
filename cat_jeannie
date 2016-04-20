@@ -12,7 +12,9 @@
 
 #include <Wire.h>
 
-#define CG (B1010000)boolean resetSuccess = false;
+#define CG (B1010000)
+
+boolean resetSuccess = false;
 
 int isReset = 13; // pin for LED indicator. some Arduinos use pin 13 as the built-in LED
 int byteArray []= {01, 01, 01, 60, 60, 60, 60, 60, 60, 8, 8, 8, 33, 33, 33, 255};

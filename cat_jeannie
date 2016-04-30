@@ -9,6 +9,8 @@
 // SDA / i2c data = white
 // SCL / i2c clock = blue
 
+// on my adafruit metro mini, SDA is A4 and SCL is A5; same pinout as the Arduino Uno
+
 
 #include <Wire.h>
 
